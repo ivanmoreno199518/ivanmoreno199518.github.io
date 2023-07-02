@@ -4,7 +4,7 @@
 }
 
 body, html {
-    min-height: 1000px;
+    min-height: 1500px;
     min-width: 800px;
     height: 100%;
     display: flex;
@@ -15,6 +15,7 @@ body, html {
     width: 30%;
     background-color: #A6FFDC;
     display: flex;
+    height: 1150px;
     flex-direction: column;
     align-items: center; 
 }
@@ -145,7 +146,7 @@ body, html {
 
 
 
-.date {
+.date, .dates {
     width: 10%;
     height: auto;
 }
