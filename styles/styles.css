@@ -4,7 +4,7 @@
 }
 
 body, html {
-    min-height: 1500px;
+    min-height: 1150px;
     min-width: 800px;
     height: 100%;
     display: flex;
