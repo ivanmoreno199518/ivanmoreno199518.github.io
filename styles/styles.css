@@ -5,17 +5,23 @@
 
 body,
 html {
-  min-height: 1200px;
+  min-height: 1300px;
   min-width: 800px;
   height: 100%;
   display: flex;
+}
+
+.entity {
+  height: 50px;
+  width: 50px;
+  
 }
 
 .left {
   width: 30%;
   background-color: #09d0d7;
   display: flex;
-  height: 1200px;
+  height: 1300px;
   flex-direction: column;
   align-items: center;
 }
