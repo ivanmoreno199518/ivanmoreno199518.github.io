@@ -82,6 +82,10 @@ html {
   font-weight: bold;
 }
 
+li {
+  font-weight: normal;
+}
+
 .languagesandothers {
   margin-top: 30%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
