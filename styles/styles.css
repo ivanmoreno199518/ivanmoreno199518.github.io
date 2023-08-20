@@ -11,15 +11,33 @@ html {
   display: flex;
 }
 
-.entity {
-  height: 50px;
-  width: 50px;
-  
+.entity, .entity2 {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  background-image: url("../img/meta.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ulpgc {
+  height: 80px;
+  width: 120px;
+  margin-left: 40px;
+  background-image: url("../img/ulpgc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entity2 {
+  margin-left: 36px;
 }
 
 .left {
   width: 30%;
-  background-color: #09d0d7;
+  background-color: #00A0E5;
   display: flex;
   height: 1300px;
   flex-direction: column;
@@ -152,7 +170,6 @@ html {
   margin-right: 4%;
   height: auto;
   display: flex;
-  justify-content: space-between;
   font-family: century;
   font-size: 14px;
 }
@@ -164,11 +181,30 @@ html {
 }
 
 .titles {
+  margin-left: 15px;
   text-align: left;
   font-weight: bold;
   font-style: italic;
   width: 86%;
   height: auto;
+}
+
+.tituloconinsignia {
+  margin-left: 15px;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  width: 86%;
+  height: auto;
+}
+
+.meta {
+  font-weight: normal;
+}
+
+.tituloconinsignia span {
+  font-weight: normal;;
 }
 
 .titles span {
@@ -309,6 +345,21 @@ html {
   height: 50px;
 }
 
+
+.spring {
+  background-image: url(../img/spring-boot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 50px;
+}
+
+.spring:hover {
+  width: 150px;
+  height: 80px;
+}
+
 .react {
   background-image: url(../img/react.jpeg);
   background-position: center;
@@ -337,7 +388,7 @@ html {
   margin-left: 2%;
   width: 50px;
   height: 50px;
-  margin-right: 50px;
+  margin-right: 2%;
 }
 
 .mysql {
@@ -366,6 +417,6 @@ html {
   background-size: cover;
   width: 70px;
   height: 70px;
-  margin-right: 153px;
+  margin-right: 215px;
 }
 
