@@ -415,6 +415,10 @@ li {
   height: 80px;
 }
 
+li {
+  margin-left: 20px;
+}
+
 .mongodb {
   background-image: url(../img/mongodb.png);
   background-position: center;
