@@ -136,7 +136,7 @@ li {
 
 .my_description {
   margin-left: 4%;
-  width: 100%;
+  width: 90%;
   height: auto;
   text-align: left justify;
   font-family: Century;
@@ -421,18 +421,18 @@ li {
   width: 70px;
   height: 70px;
 }
-
+/**
 @media (max-width: 767px) {
   .left {
     position: relative;
-    height: auto;
     width: 100%;
     max-width: 100%;
   }
 
-  .languagesandothers {
-    margin-bottom: 100px;
+  .job {
+    margin-top: 5%;
   }
+
 
   .mynameandcontact {
     display: flex;
@@ -452,11 +452,11 @@ li {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 100%; /* Para asegurarte de que no exceda el ancho de la pantalla */
-    overflow-x: hidden; /* Para evitar scroll horizontal */
+    max-width: 100%; /* Para asegurarte de que no exceda el ancho de la pantalla 
+    overflow-x: hidden; /* Para evitar scroll horizontal 
   }
 
-  /* Resto de tus estilos para móviles */
+  /* Resto de tus estilos para móviles
 
   .titles,
   .tituloconinsignia {
@@ -473,15 +473,25 @@ li {
     margin-top: 5px;
   }
 
+
+
   .tituloconinsignia {
-    flex-direction: row; /* Cambio a dirección de fila */
-    align-items: center; /* Centrado vertical en la fila */
-    justify-content: center; /* Centrado horizontal en la fila */
+    flex-direction: row; /* Cambio a dirección de fila 
+    align-items: center; /* Centrado vertical en la fila 
+    justify-content: center; /* Centrado horizontal en la fila 
+  }
+  
+  .bd {
+    margin-left: 0px;
+  }
+  .jp {
+    margin-left: 50px;
   }
 
   .entity,
   .entity2 {
-    margin-left: 5px; /* Margen entre el icono y el texto */
-    margin-top: 0; /* Ajusta el margen superior si es necesario */
+    margin-left: 5px; /* Margen entre el icono y el texto 
+    margin-top: 0; /* Ajusta el margen superior si es necesario 
   }
 }
+
