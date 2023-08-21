@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Añadido para incluir márgenes y rellenos en el cálculo del ancho */
 }
 
 body,
 html {
   height: 100%;
   display: flex;
-  overflow-x: hidden; /* Evitar scroll horizontal */
 }
 
 .entity,
