@@ -11,7 +11,8 @@ html {
   display: flex;
 }
 
-.entity, .entity2 {
+.entity,
+.entity2 {
   height: 40px;
   width: 40px;
   margin-left: 40px;
@@ -19,6 +20,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.entity3 {
+  height: 80px;
+  width: 80px;
+  margin-left: 40px;
+  background-image: url("../img/microsoft.png");
+  background-size: contain;
 }
 
 .ulpgc {
@@ -31,13 +40,17 @@ html {
   background-size: cover;
 }
 
+
+
+
+
 .entity2 {
   margin-left: 36px;
 }
 
 .left {
   width: 30%;
-  background-color: #00A0E5;
+  background-color: #00a0e5;
   display: flex;
   height: 1300px;
   flex-direction: column;
@@ -173,6 +186,7 @@ li {
   margin-left: 4%;
   margin-right: 4%;
   height: auto;
+
   display: flex;
   font-family: century;
   font-size: 14px;
@@ -200,7 +214,7 @@ li {
   font-style: italic;
   display: flex;
   width: 86%;
-  height: auto;
+  height: 40px;
 }
 
 .meta {
@@ -208,7 +222,7 @@ li {
 }
 
 .tituloconinsignia span {
-  font-weight: normal;;
+  font-weight: normal;
 }
 
 .titles span {
@@ -350,7 +364,6 @@ li {
   height: 50px;
 }
 
-
 .spring {
   background-image: url(../img/spring-boot.png);
   background-position: center;
@@ -428,4 +441,3 @@ li {
   height: 70px;
   margin-right: 215px;
 }
-
