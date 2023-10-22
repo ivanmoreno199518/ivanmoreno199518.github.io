@@ -5,10 +5,11 @@
 
 body,
 html {
-  min-height: 1400px;
+  min-height: 1600px;
   min-width: 800px;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .entity,
@@ -48,7 +49,7 @@ html {
   width: 30%;
   background-color: #00a0e5;
   display: flex;
-  height: 1400px;
+  height: 1600px;
   flex-direction: column;
   align-items: center;
 }
@@ -272,6 +273,7 @@ li {
 .framework {
   width: 60%;
   display: flex;
+  margin-right: 70px;
   margin-left: 10px;
   height: 60px;
   justify-content: flex-end;
@@ -337,7 +339,7 @@ li {
 }
 
 .python {
-  background-image: url(../img/python.png);
+  background-image: url(../img/python2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +417,7 @@ li {
 }
 
 .jquery {
-  background-image: url(../img/jquery.png);
+  background-image: url(../img/net.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -455,5 +457,5 @@ li {
   background-size: cover;
   width: 70px;
   height: 70px;
-  margin-right: 215px;
+  margin-right: 240px;
 }
